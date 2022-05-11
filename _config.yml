@@ -17,12 +17,14 @@ disqus:
 formspree:
   form_id: mjvljydp
 
+
+google_analytics:   G-XC28JP146Y
+
 # Build settings
 permalink: /:title/
 markdown: kramdown
 paginate: 5
 paginate_path: "/posts/page:num/"
-theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
   - jekyll-paginate
