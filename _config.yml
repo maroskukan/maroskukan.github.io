@@ -1,26 +1,29 @@
 # Site settings
-title: Buldogchef's Blog
+title: Buldogchef
 email: maros.kukan@me.com
-description: Awesome blog about engineering, programming, life and challenges they bring.
+description: Awesome blog about engineering, programming, and life.
+author: Maros Kukan
 baseurl: ""
 url: "https://buldogchef.com"
 
-twitter_username: jekyllrb
-github_username:  jekyll
+# Social Profiles
+twitter_username: closevision
+github_username:  maroskukan
+linkedin_username: maroskukan
 
+# Discussion Profiles
+disqus:
+  shortname: buldogchef
+formspree:
+  form_id: mjvljydp
+
+# Build settings
 permalink: /:title/
 markdown: kramdown
 paginate: 5
-paginate_path: "/:num/"
-date_format: "%b %-d, %Y"
-
-disqus:
-  shortname: buldogchef
-
-# Build settings
+paginate_path: "/posts/page:num/"
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-seo-tag
   - jekyll-sitemap
-
