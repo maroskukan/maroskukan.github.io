@@ -7,7 +7,7 @@ baseurl: ""
 url: "https://buldogchef.com"
 
 # Social Profiles
-twitter_username: closevision
+twitter_username: maroskukan
 github_username:  maroskukan
 linkedin_username: maroskukan
 
@@ -18,7 +18,7 @@ formspree:
   form_id: mjvljydp
 
 
-google_analytics:   G-XC28JP146Y
+google_analytics: G-XC28JP146Y
 
 # Build settings
 permalink: /:title/
