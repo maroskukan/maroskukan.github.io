@@ -19,9 +19,13 @@ layout: default
                         <h2 class="subheading">{{ page.subtitle }}</h2>
                         {% endif %}
                         <span class="meta">Posted by
-                            <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
+                            <a href="#">{% if page.author %}{{ page.author }}{% else %}<a href="{{"/about" | relative_url }}">{{ site.author }}</a>{% endif %}</a>
                             on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
                             content=page.content %}
+                            {%- if site.disqus.shortname -%}
+                            &middot; <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}#disqus_thread"
+                                data-disqus-identifier="{{ post.url | absolute_url }}">Post a comment</a>
+                            {%- endif -%}
                         </span>
                     </div>
                 </div>
