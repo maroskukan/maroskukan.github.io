@@ -51,7 +51,7 @@ layout: default
                         on
                         {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
                         {%- if site.disqus.shortname -%}
-                        &middot; <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}#disqus_thread" data-disqus-identifier="{{ page.url | absolute_url }}">Post a comment</a>
+                        &middot; <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}#disqus_thread" data-disqus-identifier="{{ post.url | absolute_url }}">Post a comment</a>
                         {%- endif -%}
                     </p>
                 </article>
