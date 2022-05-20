@@ -8,15 +8,17 @@ url: "https://buldogchef.com"
 
 # Social Profiles
 twitter_username: maroskukan
-github_username:  maroskukan
+github_username: maroskukan
 linkedin_username: maroskukan
+
+# Donations
+kofi_username: maroskukan
 
 # Discussion Profiles
 disqus:
   shortname: buldogchef
 formspree:
   form_id: mjvljydp
-
 
 google_analytics: G-XC28JP146Y
 
